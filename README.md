@@ -38,6 +38,10 @@ fn main() {
 ```
 
 ## Example response of the server
+
+* Keep in mind that the memory array contains tuples, where the first element is the memory address of 
+that memory and the second element is the memory that it occupies.
+
 ```json
 {
   "length_memory_array":12,
