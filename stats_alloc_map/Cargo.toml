@@ -1,0 +1,15 @@
+[package]
+name = "allo"
+version = "0.1.0"
+authors = ["gabivlj <gabitriqui@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+spin = "0.5.2"
+serde_json = "1.0"
+
+[dependencies.mio]
+features = ["os-poll", "net"]
