@@ -7,7 +7,7 @@ production loads to monitor for memory leaks.
 
 ## What is this fork
 
-This fork contains in ./stats_alloc_map a new implementation where it stores a memory map of the what you are allocating in your program.
+This fork contains in ./stats_alloc_map a new implementation where it stores a memory map of what you are allocating in your program.
 Also contains a server implementation where it serves a HTTP response (always) with the memory map.
 
 ## Example
